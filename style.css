@@ -1,0 +1,33 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.headernya {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(header.jfif);
+  background-position: center;
+  background-size: cover;
+  border-radius: none;
+  padding: 25vh 0 10vh;
+  margin-top: -136px;
+  background-attachment: fixed;
+}
+.headernya2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(yukari-tidur.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: none;
+  padding: 31.8vh 0;
+  margin-top: -136px;
+}
+.daftar-movies{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url(infolist.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+footer{
+  background-color: rgb(0, 0, 0) !important;
+}
+.active{
+  font-weight: bold;
+}
