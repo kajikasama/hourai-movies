@@ -22,7 +22,7 @@ function tampilErr(err) {
 }
 
 function getMovies(keyWord) {
-  return fetch("https://www.omdbapi.com/?apikey=790c7a&s=" + keyWord)
+  return fetch("https://www.omdbapi.com/?apikey=790c7aa&s=" + keyWord)
     .then((res) => {
       if (!res.ok) {
         throw new Error(res.statusText);
