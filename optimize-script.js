@@ -22,7 +22,7 @@ function tampilErr(err) {
 }
 
 function getMovies(keyWord) {
-  return fetch("http://www.omdbapi.com/?apikey=790c7a&s=" + keyWord)
+  return fetch("https://www.omdbapi.com/?apikey=790c7a&s=" + keyWord)
     .then((res) => {
       if (!res.ok) {
         throw new Error(res.statusText);
@@ -58,7 +58,7 @@ document.addEventListener("click", async function (el) {
 });
 
 function getMoviesDetail(imdbId) {
-  return fetch("http://www.omdbapi.com/?apikey=790c7aa&i=" + imdbId)
+  return fetch("https://www.omdbapi.com/?apikey=790c7aa&i=" + imdbId)
     .then((res) => {
       if (!res.ok) {
         throw new Error(res.Error);
